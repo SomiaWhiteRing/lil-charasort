@@ -12,13 +12,13 @@ body {
 
 .progress {
   margin: 1em auto;
-  width: 500px;
+  width: 620px;
   display: none;
 }
 
 .progressbar {
   position: relative;
-  width: 492px;
+  width: 612px;
   border: 1px solid black;
   padding: 3px;
   margin: 2px 0px;
@@ -26,7 +26,7 @@ body {
 
 .progresstext {
   position: absolute;
-  width: 492px;
+  width: 612px;
   margin: 3px 0px;
   text-align: center;
   font-size: 0.7em;
@@ -41,9 +41,9 @@ body {
 .sorter {
   margin: 0px auto;
   display: grid;
-  grid-template-columns: 120px 1fr 120px;
+  grid-template-columns: 180px 1fr 180px;
   grid-gap: 5px;
-  width: 420px;
+  width: 540px;
 }
 
 .button {
@@ -111,7 +111,7 @@ body {
 }
 
 .sorter > .image {
-  width: 120px;
+  width: 180px;
   height: 180px;
   margin: auto;
   grid-row: 1 / 7;
@@ -119,8 +119,8 @@ body {
 }
 
 .sorter > .text {
-  width: 120px;
-  height: 60px;
+  width: 180px;
+  height: 30px;
   display: none;
 }
 
@@ -196,7 +196,7 @@ label:hover {
 @media all and (min-width: 600px) {
   .results {
     flex-flow: column wrap;
-    max-height: calc(5 * (175px + 2px) + 1 * (15px + 2px));
+    max-height: calc(3 * (175px + 2px) + 4 * (15px + 2px));
     /* 2px for borders */
   }
 }
