@@ -27,7 +27,7 @@ dataSet[dataSetVersion].options = [
 dataSet[dataSetVersion].characterData = [
   {
     name: "Sensei",
-    img: "Sensei.png",
+    img: "sensei.png",
     opts: {
       cast: ["sensei"]
     }
